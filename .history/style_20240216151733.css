@@ -1,0 +1,61 @@
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+#color-palette {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  background-color: white;
+}
+
+#pixel-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.line {
+  display: flex;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#img-principal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: max-content;
+  max-height: max-content;
+}

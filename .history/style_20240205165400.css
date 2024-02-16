@@ -1,0 +1,48 @@
+.black{
+    background-color: black;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.pallet-container{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.pixel{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+}
+
+#pixel-board{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.line{
+    display: flex;
+}
+
+
+

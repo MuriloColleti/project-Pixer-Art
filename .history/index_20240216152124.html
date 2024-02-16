@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Paleta de Cores</title>
+  </head>
+
+  <body>
+
+    <img src="./img/download (1).jpeg" alt="img" id="img-principal">
+    <header>
+      <h1 id="title">Paleta de Cores</h1>
+    </header>
+
+    <div id="color-palette">
+      <div class="selected square black color"></div>
+    </div>
+
+    <input type="number" id="board-size" min="1" max="50">
+    <button id="generate-board" onclick="">VQV</button>
+
+    <button id="clear-board" onclick="">Limpar</button>
+
+    <main id="pixel-board"></main>
+
+    <p id="colorDisplay">Color will be displayed here</p>
+  </body>
+
+  <script src="script.js" defer></script>
+</html>

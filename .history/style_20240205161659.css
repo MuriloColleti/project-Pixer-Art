@@ -1,0 +1,20 @@
+.black{
+    background-color: black;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.square{
+    border: 1px solid black;
+    padding: 1rem;
+}
